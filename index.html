@@ -4,80 +4,79 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Automatisierung für Hausverwaltungen</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 40px 20px;
-      line-height: 1.6;
-      color: #1f2937;
-    }
-    .hero {
-      padding: 40px 0;
-    }
-    h1 {
-      font-size: 42px;
-      line-height: 1.1;
-    }
-    .highlight {
-      color: #2563eb;
-    }
-    .box {
-      border: 1px solid #ddd;
-      padding: 20px;
-      border-radius: 12px;
-      margin: 20px 0;
-      background: #f9fafb;
-    }
-    a.button {
-      display: inline-block;
-      background: #2563eb;
-      color: white;
-      padding: 14px 22px;
-      border-radius: 8px;
-      text-decoration: none;
-      margin-top: 15px;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
+  <nav class="navbar">
+    <div class="logo">FlowPilot AI</div>
+    <div class="nav-links">
+      <a href="#problem">Problem</a>
+      <a href="#solution">Lösung</a>
+      <a href="#contact">Kontakt</a>
+    </div>
+  </nav>
+
   <section class="hero">
-    <h1>Weniger manuelle E-Mail- und PDF-Arbeit für <span class="highlight">Hausverwaltungen</span></h1>
-    <p>
-      Ich helfe Hausverwaltungen dabei, wiederkehrende Dokumenten- und E-Mail-Prozesse
-      mit Automatisierung und KI zu vereinfachen — ohne bestehende Software zu ersetzen.
-    </p>
-    <a class="button" href="mailto:ekrem.guelbahar@gmail.com">Kostenloses Erstgespräch anfragen</a>
+    <div class="hero-content">
+      <p class="eyebrow">KI-gestützte Prozessautomatisierung</p>
+      <h1>Weniger manuelle E-Mail- und PDF-Arbeit für Hausverwaltungen.</h1>
+      <p class="subtitle">
+        Ich helfe Hausverwaltungen, wiederkehrende Dokumentenprozesse zu automatisieren —
+        ohne bestehende Software ersetzen zu müssen.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="mailto:DEINE-EMAIL@example.com" class="btn primary">Kostenloses Erstgespräch</a>
+        <a href="#solution" class="btn secondary">Mehr erfahren</a>
+      </div>
+    </div>
+
+    <div class="hero-card">
+      <div class="card-header">
+        <span></span><span></span><span></span>
+      </div>
+      <pre>
+E-Mail erkannt
+↓
+PDF ausgelesen
+↓
+Daten extrahiert
+↓
+Excel/CRM vorbereitet</pre>
+    </div>
   </section>
 
-  <div class="box">
-    <h2>Typische Probleme</h2>
-    <p>Schadensmeldungen, Rechnungen und Eigentümeranfragen landen per Mail im Postfach und müssen manuell gelesen, sortiert und übertragen werden.</p>
-  </div>
+  <section id="problem" class="section">
+    <p class="eyebrow">Das Problem</p>
+    <h2>Zu viel Zeit geht in Routinearbeit verloren.</h2>
 
-  <div class="box">
-    <h2>Was ich automatisiere</h2>
+    <div class="grid">
+      <div class="box">Schadensmeldungen landen unsortiert im Postfach.</div>
+      <div class="box">PDFs müssen manuell gelesen und übertragen werden.</div>
+      <div class="box">Mitarbeiter kopieren Daten mehrfach in Excel oder Systeme.</div>
+    </div>
+  </section>
+
+  <section id="solution" class="section">
+    <p class="eyebrow">Die Lösung</p>
+    <h2>Ein kleiner Workflow kann bereits viel Arbeit abnehmen.</h2>
+
+    <div class="steps">
+      <div><strong>01</strong><p>Eingehende E-Mails erkennen</p></div>
+      <div><strong>02</strong><p>PDF-Anhänge automatisch auslesen</p></div>
+      <div><strong>03</strong><p>Relevante Daten strukturiert extrahieren</p></div>
+      <div><strong>04</strong><p>Zusammenfassung und nächste Aktion vorbereiten</p></div>
+    </div>
+  </section>
+
+  <section class="cta" id="contact">
+    <h2>Start mit einem konkreten Prozess.</h2>
     <p>
-      E-Mail-Erkennung, PDF-Auslesung, automatische Klassifizierung, strukturierte Tabellen,
-      Zusammenfassungen und vorbereitete interne Aufgaben.
+      In einem 20-minütigen Gespräch prüfen wir, ob sich eine Automatisierung bei Ihnen lohnt.
     </p>
-  </div>
-
-  <div class="box">
-    <h2>Mein Ansatz</h2>
-    <p>
-      Wir starten mit einem kleinen Prozess. Ich analysiere den Ablauf, baue einen Prototyp
-      und zeige, ob sich eine Automatisierung wirtschaftlich lohnt.
-    </p>
-  </div>
-
-  <h2>Kontakt</h2>
-  <p>
-    Ekrem Gülbahar<br />
-    E-Mail: <a href="mailto:ekrem.guelbahar@gmail.com">ekrem.guelbahar@gmail.com</a>
-  </p>
+    <a href="mailto:DEINE-EMAIL@example.com" class="btn primary">Kontakt aufnehmen</a>
+  </section>
 
 </body>
 </html>
